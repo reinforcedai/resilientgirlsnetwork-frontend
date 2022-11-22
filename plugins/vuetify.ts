@@ -8,10 +8,10 @@ import { aliases, mdi } from 'vuetify/iconsets/mdi'
 const lightTheme: ThemeDefinition = {
   dark: false,
   colors: {
-    background: '#FFFFFF',
+    background: '#f5f5f5',
     surface: '#FFFFFF',
     primary: '#7E240F',
-    'primary-darken-1': '#8A460A',
+    'primary-darken-1': '#94380A',
     secondary: '#FFFFFF',
     'secondary-darken-1': '#8A0A39',
     error: '#4A1509',

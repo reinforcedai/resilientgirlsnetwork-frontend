@@ -6,6 +6,7 @@ const store = useStore()
 const navLinks = [
   { name: 'Home', to: '/' },
   { name: 'About', to: '/about' },
+  { name: 'Videos', to: '/videos' },
   { name: 'Partnership', to: '/partnership' },
   { name: 'Contact', to: '/contact' },
 ]
@@ -31,24 +32,24 @@ function toggleDrawar(){
         </template>
 
 
-            <nuxt-link to="/" exact class="text-decoration-none d-flex flex-row align-center">
-                <div>
-                    <v-img
-                        alt="logo"
-                        contain
-                        src="/rgn-logo.jpeg"
-                        transition="scale-transition"
-                        width="50"
-                        class="shrink"
-                    />
-                </div>
-                <div>
-                    <!-- <v-app-bar-title class="text-secondary ml-3">{{store}}</v-app-bar-title> -->
-                </div>
-            </nuxt-link>
+        <nuxt-link to="/" exact class="text-decoration-none d-flex flex-row align-center ml-15">
+            <div>
+                <v-img
+                    alt="logo"
+                    contain
+                    src="/rgn-logo.jpeg"
+                    transition="scale-transition"
+                    width="50"
+                    class="shrink"
+                />
+            </div>
+            <div>
+                <!-- <v-app-bar-title class="text-secondary ml-3">{{store}}</v-app-bar-title> -->
+            </div>
+        </nuxt-link>
 
         <v-spacer></v-spacer>
-        <v-toolbar-items class="hidden-sm-and-down mr-15">
+        <v-toolbar-items class="hidden-sm-and-down">
             <v-btn v-for="link in navLinks"
                 :key="link.to"
                 :to="link.to"
@@ -56,6 +57,13 @@ function toggleDrawar(){
                 {{link.name}}
             </v-btn>
         </v-toolbar-items>
+        <v-spacer></v-spacer>
+        <v-btn
+            class="hidden-sm-and-down bg-info mr-15"
+            to="/donate"
+        >
+            Donate
+        </v-btn>
     </v-app-bar>
 
     <v-navigation-drawer

@@ -1,10 +1,10 @@
 <script setup>
 
 const socialLinks = [
-  { name: 'LinkedIn', to: 'https://www.linkedin.com/in/', icon: 'mdi-linkedin' },
+    { name: 'Facebook', to: 'https://web.facebook.com/Resilientgirlsnetwork', icon: 'mdi-facebook' },
+  { name: 'Instagram', to: 'https://instagram.com/resilientgirlsnetwork', icon: 'mdi-instagram' },
+  { name: 'YouTube', to: 'https://www.youtube.com/', icon: 'mdi-youtube' },
   { name: 'Twitter', to: 'https://twitter.com/', icon: 'mdi-twitter' },
-  { name: 'Facebook', to: 'https://web.facebook.com/', icon: 'mdi-facebook' },
-  { name: 'Instagram', to: 'https://instagram.com/', icon: 'mdi-instagram' },
 ]
 
 </script>
@@ -17,7 +17,7 @@ const socialLinks = [
                 :href="link.to"
                 :icon="link.icon"
                 color="info"
-                class="mx-1"
+                class="ma-1"
                 target="_blank"
             >
             </v-btn>
