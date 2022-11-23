@@ -23,7 +23,7 @@ function toggleDrawar(){
 
 <template>
     <v-app-bar color="primary">
-        <template v-slot:prepend>
+        <template v-slot:append>
             <v-app-bar-nav-icon
                 @click.stop="drawer = !drawer"
                 class="hidden-md-and-up"
@@ -32,7 +32,7 @@ function toggleDrawar(){
         </template>
 
 
-        <nuxt-link to="/" exact class="text-decoration-none d-flex flex-row align-center ml-15">
+        <nuxt-link to="/" exact class="text-decoration-none d-flex flex-row align-center ml-5">
             <div>
                 <v-img
                     alt="logo"
@@ -67,10 +67,12 @@ function toggleDrawar(){
     </v-app-bar>
 
     <v-navigation-drawer
-        v-model="drawer"
-        color="primary"
         app
         temporary
+        v-model="drawer"
+        color="primary"
+        class="px-1"
+        location="right"
     >
         <v-list >
             <v-list-item
@@ -80,6 +82,15 @@ function toggleDrawar(){
                 :title="link.name"
             ></v-list-item>
         </v-list>
+        <v-btn
+            block
+            size="large"
+            to="/donate"
+            color="success"
+            variant="outlined"
+        >
+            Donate
+        </v-btn>
 
     </v-navigation-drawer>
 </template>

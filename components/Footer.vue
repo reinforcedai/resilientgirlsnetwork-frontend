@@ -17,7 +17,7 @@ const store = useStore()
             </v-row>
             <v-row justify="center" class="my-10" no-gutters>
                 <v-col color="primary" class="text-center my-10" cols="12">
-                    &copy; {{ new Date().getFullYear() }} — {{ store }}
+                    Copyright &copy; {{ new Date().getFullYear() }} {{ store }} - All Rights Reserved.
                 </v-col>
             </v-row>
         </v-container>

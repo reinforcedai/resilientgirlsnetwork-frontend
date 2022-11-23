@@ -16,13 +16,13 @@
 
   <v-container class="bg-surface my-5">
     <v-row class="bg-surface py-15">
-      <v-col cols="2" class="ml-5">
+      <v-col cols="12" md="2" class="ml-5">
         <v-img
           alt="profile photo"
            src="/2.jpeg"
         ></v-img>
       </v-col>
-      <v-col cols="9" class="ml-1">
+      <v-col cols="12" md="8" class="pl-0">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolores adipisci quidem veritatis sint delectus corporis rem! Accusantium alias quidem incidunt voluptatem laudantium odio. Ullam soluta expedita necessitatibus aliquam consectetur?
         </p>
@@ -35,20 +35,10 @@
       <v-col cols="12">
         <h2 class="text-info text-uppercase">Our Vision</h2>
         <p>
-          To connect and inspire Greatness in women who are determined to become the women God intends for them to be regardless of the challenge or obstacle they may face thereby creating impact and making a difference in the society.
+          To connect and inspire greatness in women who are determined to become the women God intends for them to be regardless of the challenge or obstacle they may face thereby creating impact and making a difference in the society.
         </p>
       </v-col>
     </v-row>
   </v-container>
 
-  <v-container class="bg-surface my-5">
-    <v-row class="bg-surface py-15 px-5">
-      <v-col cols="12">
-        <h2 class="text-info text-uppercase">Contact Us</h2>
-        <p>
-          info@resilientgirlsnetwork.org
-        </p>
-      </v-col>
-    </v-row>
-  </v-container>
 </template>
