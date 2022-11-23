@@ -16,7 +16,7 @@ const socialLinks = [
                 :key="link.to"
                 :href="link.to"
                 :icon="link.icon"
-                color="info"
+                color="success"
                 class="ma-1"
                 target="_blank"
             >

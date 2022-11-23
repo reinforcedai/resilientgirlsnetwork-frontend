@@ -59,7 +59,8 @@ function toggleDrawar(){
         </v-toolbar-items>
         <v-spacer></v-spacer>
         <v-btn
-            class="hidden-sm-and-down bg-info mr-15"
+            size="large"
+            class="hidden-sm-and-down bg-success mr-15"
             to="/donate"
         >
             Donate
@@ -86,7 +87,6 @@ function toggleDrawar(){
             block
             size="large"
             to="/donate"
-            color="success"
             variant="outlined"
         >
             Donate

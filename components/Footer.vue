@@ -7,9 +7,9 @@ const store = useStore()
         <v-container class="bg-primary-darken-1">
             <v-row justify="center" class="my-15" no-gutters>
                 <v-col cols="6" class="">
-                    <v-btn to="/contact" class="bg-info ma-1">contact</v-btn>
-                    <v-btn to="/videos" class="bg-info ma-1">videos</v-btn>
-                    <v-btn to="/partnership" class="bg-info ma-1">Become A Partner</v-btn>
+                    <v-btn to="/contact" class="bg-primary ma-1">contact</v-btn>
+                    <v-btn to="/videos" class="bg-primary ma-1">videos</v-btn>
+                    <v-btn to="/partnership" class="bg-primary ma-1">Become A Partner</v-btn>
                 </v-col>
                 <v-col cols="4" class="">
                     <SocialLinks />

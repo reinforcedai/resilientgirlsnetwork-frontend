@@ -1,7 +1,13 @@
 <script setup>
-import { ref } from 'vue'
+  const tabs = ref(null)
+  const title = ref('Donation')
 
-const tabs = ref(null)
+  useHead({
+    titleTemplate: (titleChunk) => {return titleChunk ? `${title.value} | ${titleChunk}` : 'Resilient Girls Network'},
+    meta: [
+      { name: 'description', content: '' }
+    ],
+  })
 
 </script>
 

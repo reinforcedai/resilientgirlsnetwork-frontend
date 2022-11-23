@@ -1,3 +1,12 @@
+<script setup>
+  const title = ref('Home')
+  useHead({
+    titleTemplate: (titleChunk) => {return titleChunk ? `${title.value} | ${titleChunk}` : 'Resilient Girls Network'},
+    meta: [
+      { name: 'description', content: '' }
+    ],
+  })
+</script>
 
 <template>
   <v-layout class="ma-n4">
@@ -16,7 +25,7 @@
         </p>
       </v-col>
       <v-col cols="12">
-        <v-btn class="bg-info" to="/partnership">Become A Partner</v-btn>
+        <v-btn class="bg-success" to="/partnership">Become A Partner</v-btn>
       </v-col>
     </v-row>
   </v-layout>

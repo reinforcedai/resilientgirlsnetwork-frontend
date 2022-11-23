@@ -1,6 +1,11 @@
 <script setup>
-import { ref } from 'vue'
-
+const title = ref('Videos')
+useHead({
+  titleTemplate: (titleChunk) => {return titleChunk ? `${title.value} | ${titleChunk}` : 'Resilient Girls Network'},
+  meta: [
+    { name: 'description', content: '' }
+  ],
+})
 const cycle = ref(true)
 const slides = [
   {
