@@ -25,13 +25,13 @@
 
   <v-container class="bg-surface my-5">
     <v-row class="bg-surface py-15">
-      <v-col cols="12" md="2" class="mx-n1 px-0">
+      <v-col cols="12" md="2" class="px-0">
         <v-img
           alt="profile photo"
            src="/profile-img.png"
         ></v-img>
       </v-col>
-      <v-col cols="12" md="10" class="pl-0 px-sm-3">
+      <v-col cols="12" md="10" class="px-3">
         <h4 class="text-info">Zigabel Faith</h4>
         <i>Founder, Resilient Girls Network</i>
         <p class="text-justify mt-3">
