@@ -29,11 +29,14 @@
           >
             mdi-message-text-outline
           </v-icon>
-      Contact Us
-      </h1>
+          Contact Us
+        </h1>
         <p>
-          Email: info@resilientgirlsnetwork.org
+          Email: resilientgirlsnetwork@gmail.com
         </p>
+        <!-- <p>
+          Email: info@resilientgirlsnetwork.org
+        </p> -->
       </v-col>
 
       <v-col>
