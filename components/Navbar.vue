@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const store = useStore()
+const state = useState()
 
 const navLinks = [
   { name: 'Home', to: '/' },
@@ -44,7 +44,7 @@ function toggleDrawar(){
                 />
             </div>
             <div>
-                <!-- <v-app-bar-title class="text-secondary ml-3">{{store}}</v-app-bar-title> -->
+                <!-- <v-app-bar-title class="text-secondary ml-3">{{ state }}</v-app-bar-title> -->
             </div>
         </nuxt-link>
 

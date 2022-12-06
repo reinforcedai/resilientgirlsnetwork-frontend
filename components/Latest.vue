@@ -1,11 +1,4 @@
 <script setup>
-const title = ref('Videos')
-useHead({
-  titleTemplate: (titleChunk) => {return titleChunk ? `${title.value} | ${titleChunk}` : 'Resilient Girls Network'},
-  meta: [
-    { name: 'description', content: '' }
-  ],
-})
 const slides = [
   {
     src: "PhegR8TRyUc",
@@ -16,18 +9,23 @@ const slides = [
 </script>
 
 <template>
-  <v-container>
-    <v-row no-gutters>
-      <v-col class="text-center">
-        <h2 class="text-capitalize mb-4">Videos</h2>
+    <!-- <v-row justify="center" align="center">
+      <v-col
+        cols="12"
+        class="bg-surface"
+      >
+        <video width="820" height="240" controls>
+          <source src="video.mp4" type="video/mp4">
+        </video>
       </v-col>
-    </v-row>
+    </v-row> -->
+
     <v-row justify="center" align="center">
       <v-col
         v-for="slide in slides"
         :key="slide.src"
         cols="12"
-        md="12"
+        md="6"
         class="bg-surface ma-1"
       >
         <div class="responsive-video">
@@ -35,7 +33,6 @@ const slides = [
         </div>
       </v-col>
     </v-row>
-  </v-container>
 </template>
 
 <style scoped>

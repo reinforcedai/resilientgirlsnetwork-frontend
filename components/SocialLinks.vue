@@ -3,8 +3,8 @@
 const socialLinks = [
     { name: 'Facebook', to: 'https://web.facebook.com/Resilientgirlsnetwork', icon: 'mdi-facebook' },
   { name: 'Instagram', to: 'https://instagram.com/resilientgirlsnetwork', icon: 'mdi-instagram' },
-  { name: 'YouTube', to: 'https://www.youtube.com/', icon: 'mdi-youtube' },
-  { name: 'Twitter', to: 'https://twitter.com/', icon: 'mdi-twitter' },
+  { name: 'YouTube', to: 'https://www.youtube.com/resilientgirlsnetwork', icon: 'mdi-youtube' },
+//   { name: 'Twitter', to: 'https://twitter.com/', icon: 'mdi-twitter' },
 ]
 
 </script>
