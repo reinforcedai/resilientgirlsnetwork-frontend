@@ -16,11 +16,12 @@
       </v-col>
 
       <v-col cols="12" md="6" class="text-center">
-        <h3 class="text-info">One-Time Donation</h3>
+        <h3 class="text-info mb-5">One-Time Donation</h3>
         <v-btn
           size="large"
           href="https://sandbox-flw-web-v3.herokuapp.com/pay/resilient-girls-network-one-time-donation"
           color="success"
+          block
         >
           Donate
         </v-btn>
@@ -28,11 +29,12 @@
       
 
       <v-col cols="12" md="6" class="text-center">
-        <h3 class="text-info">Recurring Donation</h3>
+        <h3 class="text-info mb-5">Recurring Donation</h3>
         <v-btn
           size="large"
           href="https://sandbox-flw-web-v3.herokuapp.com/pay/resilient-girls-network-recurring-donation"
           color="success"
+          block
         >
           Donate
         </v-btn>
