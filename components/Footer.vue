@@ -1,5 +1,5 @@
 <script setup>
-const state = useState()
+const siteName = useSiteName()
 </script>
 
 <template>
@@ -17,7 +17,7 @@ const state = useState()
             </v-row>
             <v-row justify="center" class="my-10" no-gutters>
                 <v-col color="primary" class="text-center my-10" cols="12">
-                    Copyright &copy; {{ new Date().getFullYear() }} {{ state }} - All Rights Reserved.
+                    Copyright &copy; {{ new Date().getFullYear() }} - {{ siteName }}.
                 </v-col>
             </v-row>
         </v-container>

@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const state = useState()
+const siteName = useSiteName()
 
 const navLinks = [
   { name: 'Home', to: '/' },
@@ -16,8 +16,6 @@ const drawer = ref(false)
 function toggleDrawar(){
     drawer.value = !drawer.value
   }
-
-
 
 </script>
 
@@ -44,7 +42,7 @@ function toggleDrawar(){
                 />
             </div>
             <div>
-                <!-- <v-app-bar-title class="text-secondary ml-3">{{ state }}</v-app-bar-title> -->
+                <!-- <v-app-bar-title class="text-secondary ml-3">{{ siteName }}</v-app-bar-title> -->
             </div>
         </nuxt-link>
 
