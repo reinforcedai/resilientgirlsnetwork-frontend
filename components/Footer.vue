@@ -17,7 +17,7 @@ const siteName = useSiteName()
             </v-row>
             <v-row justify="center" class="my-10" no-gutters>
                 <v-col color="primary" class="text-center my-10" cols="12">
-                    Copyright &copy; {{ new Date().getFullYear() }} - {{ siteName }}.
+                    Copyright &copy; {{ new Date().getFullYear() }} - {{ siteName }}
                 </v-col>
             </v-row>
         </v-container>
