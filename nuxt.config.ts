@@ -29,6 +29,9 @@ export default defineNuxtConfig({
         { hid: 'og:type', property: 'og:type', content: 'Website' },
         { hid: 'og:url', property: 'og:url', content: 'https://resilientgirlsnetwork.org/' },
       ],
+      script: [
+        { 'data-website-id': 'd2dedc81-2189-4dc4-9490-391a58729a5b', src: 'https://umami-web-admin.netlify.app/umami.js' }
+      ],
     }
   },
   
@@ -82,7 +85,6 @@ export default defineNuxtConfig({
     overwriting: false,
     fontsDir: 'fonts',
     fontsPath: '~assets/fonts'
-
   }
 
 })
